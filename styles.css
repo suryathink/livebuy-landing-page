@@ -20,17 +20,26 @@ body{
 }
 
 .container{
-    width: 500px;
-    height: 500px;
-    border: 10px soild red;
+    margin: auto;
+    width: 50%;
+    height: 90vh;
+    /* border: 10px soild red; */
     background-color: aqua;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.people{
+  font: Poppins;
+  font-weight: 400;
+  text-align: center;
+  /* padding-bottom: 30px; */
+}
+
 .logo {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,4 +53,50 @@ body{
     font-family: "Poppins";
     font-size: 15px;
     color: #DBDBDB;
+  }
+
+  .count{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .customer-count{
+    /* width:300px; */
+    /* height: -50px; */
+    /* border: 20px soild black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* line-height: 10px; */
+  }
+  .people{
+   margin-top: -20px;
+  }
+
+  .user-email{
+   display: flex;
+   /* border: 2px solid red; */
+   width: 50%;
+   position:relative;
+   height: 40px;
+  }
+
+  .user-email > input{
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid white;
+    outline: none;
+    padding: 5%;
+    border-radius: 5px;
+  }
+  .user-email > button{
+    position: absolute;
+    left: 70%;
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
   }
