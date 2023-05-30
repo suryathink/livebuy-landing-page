@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.navbar{
+    background-color: #DBDBDB;
+    border: 1px solid #DBDBDB;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-styles{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 10px soild red;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo img {
+    width: 25px;
+  }
+  .logo p {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #DBDBDB;
+  }
