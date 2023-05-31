@@ -94,7 +94,16 @@ body{
     outline: none;
     padding: 5%;
     border-radius: 5px;
+    background-color: #000000;
   }
+  input:focus {   
+     color: #FFFFFF;
+    }
+
+    input{
+      caret-color:#FF6C3E;;
+    }
+
   .user-email > button{
     position: absolute;
     left: 70%;
