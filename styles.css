@@ -24,7 +24,7 @@ body{
     width: 50%;
     height: 90vh;
     /* border: 10px soild red; */
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +59,7 @@ body{
     font-family: Poppins;
     font-size: 50px;
     font-weight: 600;
+    color: #FFFFFF;
   }
 
   .customer-count{
@@ -74,6 +75,8 @@ body{
   }
   .people{
    margin-top: -20px;
+   color: #FFFFFF;
+   ;
   }
 
   .user-email{
@@ -101,15 +104,31 @@ body{
     border: none;
   }
 
-  .notification{
-    /* border: 5px soild red; */
-    text-align: center;
-    width: 45%;
-  }
+ /* .notification{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } */
 
   .notification-text{
     font-family: Poppins;
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
     /* font-weight: 400; */
+    color: #FF6C3E;
+  }
+
+  .announcement-div{
+   /* border: 2px solid red;  */
+    width:90%;
+    text-align: center;
+  }
+  .announcement{
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    color: #A6A6A6;
+  }
+  .million{
+    color: #A6A6A6;
   }
