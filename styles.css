@@ -100,3 +100,16 @@ body{
     border-radius: 5px;
     border: none;
   }
+
+  .notification{
+    border: 5px soild red;
+    text-align: center;
+    width: 45%;
+  }
+
+  .notification-text{
+    font-family: Poppins;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 400;
+  }
