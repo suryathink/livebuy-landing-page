@@ -102,14 +102,14 @@ body{
   }
 
   .notification{
-    border: 5px soild red;
+    /* border: 5px soild red; */
     text-align: center;
     width: 45%;
   }
 
   .notification-text{
     font-family: Poppins;
-    font-size: 8px;
+    font-size: 9px;
     text-align: center;
-    font-weight: 400;
+    /* font-weight: 400; */
   }
